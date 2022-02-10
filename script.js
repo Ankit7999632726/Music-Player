@@ -20,7 +20,8 @@ let updateTimer;
 let curr_track = document.createElement('audio');
 
 
-// Define the tracks that have to be playedlet track_list = [
+// Define the tracks that have to be played
+let track_list = [
   {
     name: "Barbaadiyan",
     artist: "Sachet Tandon,Nikhita Gandhi",
