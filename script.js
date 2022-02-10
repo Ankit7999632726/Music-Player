@@ -20,13 +20,18 @@ let updateTimer;
 let curr_track = document.createElement('audio');
 
 
-// Define the tracks that have to be played
-let track_list = [
+// Define the tracks that have to be playedlet track_list = [
   {
     name: "Barbaadiyan",
     artist: "Sachet Tandon,Nikhita Gandhi",
     image: "https://m.media-amazon.com/images/M/MV5BZWFiMjVlYTMtMzlhYy00MDcxLWFlNmEtMGJkNmRhNjE5N2ViXkEyXkFqcGdeQXVyODE5NzE3OTE@._V1_.jpg",
     path: "https://2022.dming2022.xyz/bollywood%20mp3/Shiddat%20(2021)/Shiddat%20(2021)%20(320%20Kbps)/03%20-%20Barbaadiyan.mp3"
+  },
+  {
+    name: "Love Me Like You Do ",
+    artist: "Ellie Goulding",
+    image: "https://www.themoviedb.org/t/p/original/9ZedQHPQVveaIYmDSTazhT3y273.jpg",
+    path:  "https://pagalworld.com.se/files/download/id/3680"
   },
   {
     name: "Kinna Sona ",
@@ -35,11 +40,24 @@ let track_list = [
     path: "https://mp3wale.info/uploads/file/57e123ba636f6.mp3"
   },
   {
-    name: "Sajde KiYe Hai Lakhoin",
+    name: "Hey Mama Mp3",
+    artist: "Nicki Minaj, Bebe Rexha",
+    image: "https://www.billboard.com/wp-content/uploads/media/Bebe-Rexha-Nicki-Minaj-No-Broken-Hearts-album-art-2016-billboard-620-2.jpg?w=620",
+    path:  "https://bizziroute.com/mp3-songs/downloads/david-guetta/hey-mama.mp3"
+  },
+  {
+    name: "Sajde Mp3",
     artist: "Pritam, Sunidhi Chauhan, KK, Shahid",
     image: "https://pagalsong.in/uploads//thumbnails/300x300/id3Picture_563363831.jpg",
     path:  "https://pagalsong.in/uploads/systemuploads/mp3/Khatta%20Meetha/Sajde%20Ki%20Ye%20Hai%20Lakhoin%20-%20Khatta%20Meetha%20128%20Kbps.mp3"
   },
+  {
+    name: "Aashiyan mp3",
+    artist: "Shreya Ghoshal, Nikhil Paul George",
+    image: "https://www.filmibeat.com/ph-big/2012/08/barfi!_13462260780.jpg",
+    path:  "https://pagalsong.in/uploads/systemuploads/mp3/Barfi/Aashiyan%20-%20Barfi%20128%20Kbps.mp3"
+  },
+  
 ];
 
 function random_bg_color() {
